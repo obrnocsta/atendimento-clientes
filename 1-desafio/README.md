@@ -4,7 +4,7 @@ Os materiais de cada atividade serão reunidos nesta tabela para facilitar a nav
 
 | Desafio | Material | Conteúdo |
 |---------|----------|----------|
-| 1 · Python, API e IA | [Guia do Desafio 01](parte1.md) | Preparação e conteúdo da sessão |
+| 1 · Python, API e IA | [Guia do Desafio 01](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/Guia_Desafio1_Google_Colab.md) | Preparação e conteúdo da sessão |
 
 ---
 
