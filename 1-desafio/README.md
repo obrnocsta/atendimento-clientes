@@ -1,27 +1,10 @@
-<p align="center">
-  <img src="imagens/banner.png" alt="banner">
-</p>
-
-<p align="center">
-  <img src="icones/01-estacionamento.svg" width="48" height="48" alt="Estacionamento">
-  <img src="icones/02-posto-de-saude.svg" width="48" height="48" alt="Posto de saude">
-  <img src="icones/03-streaming-de-filmes.svg" width="48" height="48" alt="Streaming de filmes">
-  <img src="icones/04-atendimento-ao-cliente.svg" width="48" height="48" alt="Atendimento ao cliente">
-  <img src="icones/05-passagens-aereas.svg" width="48" height="48" alt="Passagens aereas">
-  <img src="icones/06-servico-meteorologico.svg" width="48" height="48" alt="Servico meteorologico">
-  <img src="icones/07-telemetria-esportiva.svg" width="48" height="48" alt="Telemetria esportiva">
-  <img src="icones/08-festival-de-musica.svg" width="48" height="48" alt="Festival de musica">
-</p>
-
----
-
 ## Guias e Conteúdos dos desafios
 
 Os materiais de cada atividade serão reunidos nesta tabela para facilitar a navegação pelo repositório.
 
 | Desafio | Material | Conteúdo |
 |---------|----------|----------|
-| 1 · Python, API e IA | [Guia do Desafio 01](Guia_Desafio1_Google_Colab.md) | Preparação e conteúdo da sessão |
+| 1 · Python, API e IA | [Guia do Desafio 01](parte1.md) | Preparação e conteúdo da sessão |
 
 ---
 
@@ -37,16 +20,16 @@ Os planos foram **validados contra o script `gerar_bases.py`**, que gera os arqu
 
 ## Os temas
 
-| | # | Tema | Plano | Tabelas (dimensão · fato) | Linhas |
-|:-:|:-:|:--|:--|:--|--:|
-| <img src="icones/01-estacionamento.svg" width="40" alt="Estacionamento"> | 1 | Estacionamento | [01-estacionamento.md](bases_dados/01-estacionamento/01-estacionamento.md) | `vagas` · `movimentacoes` | 52.200 |
-| <img src="icones/02-posto-de-saude.svg" width="40" alt="Posto de saude"> | 2 | Posto de saúde (triagem) | [02-posto-de-saude.md](bases_dados/02-posto-de-saude/02-posto-de-saude.md) | `pacientes` · `atendimentos` | 52.500 |
-| <img src="icones/03-streaming-de-filmes.svg" width="40" alt="Streaming de filmes"> | 3 | Streaming de filmes | [03-streaming-de-filmes.md](bases_dados/03-streaming-de-filmes/03-streaming-de-filmes.md) | `filmes` · `visualizacoes` | 65.300 |
-| <img src="icones/04-atendimento-ao-cliente.svg" width="40" alt="Atendimento ao cliente"> | 4 | Atendimento ao cliente | [04-atendimento-ao-cliente.md](bases_dados/04-atendimento-ao-cliente/04-atendimento-ao-cliente.md) | `clientes` · `chamados` | 52.400 |
-| <img src="icones/05-passagens-aereas.svg" width="40" alt="Passagens aereas"> | 5 | Passagens aéreas | [05-passagens-aereas.md](bases_dados/05-passagens-aereas/05-passagens-aereas.md) | `voos` · `reservas` | 65.600 |
-| <img src="icones/06-servico-meteorologico.svg" width="40" alt="Servico meteorologico"> | 6 | Serviço meteorológico | [06-servico-meteorologico.md](bases_dados/06-servico-meteorologico/06-servico-meteorologico.md) | `estacoes` · `leituras` | 72.050 |
-| <img src="icones/07-telemetria-esportiva.svg" width="40" alt="Telemetria esportiva"> | 7 | Telemetria esportiva | [07-telemetria-esportiva.md](bases_dados/07-telemetria-esportiva/07-telemetria-esportiva.md) | `pilotos` · `voltas` | 65.800 |
-| <img src="icones/08-festival-de-musica.svg" width="40" alt="Festival de musica"> | 8 | Festival de música | [08-festival-de-musica.md](bases_dados/08-festival-de-musica/08-festival-de-musica.md) | `atracoes` · `ingressos_vendidos` | 65.100 |
+| # | Tema | Plano | Tabelas (dimensão · fato) | Linhas |
+|:-:|:--|:--|:--|--:|
+| 1 | Estacionamento | [01-estacionamento.md](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/01-estacionamento/01-estacionamento.md) | `vagas` · `movimentacoes` | 52.200 |
+| 2 | Posto de saúde (triagem) | [02-posto-de-saude.md]([bases_dados/02-posto-de-saude/02-posto-de-saude.md](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/02-posto-de-saude/02-posto-de-saude.md)) | `pacientes` · `atendimentos` | 52.500 |
+| 3 | Streaming de filmes | [03-streaming-de-filmes.md]([bases_dados/03-streaming-de-filmes/03-streaming-de-filmes.md](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/03-streaming-de-filmes/03-streaming-de-filmes.md)) | `filmes` · `visualizacoes` | 65.300 |
+| 4 | Atendimento ao cliente | [04-atendimento-ao-cliente.md](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/04-atendimento-ao-cliente/04-atendimento-ao-cliente.md) | `clientes` · `chamados` | 52.400 |
+| 5 | Passagens aéreas | [05-passagens-aereas.md](bases_dadoshttps://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/05-passagens-aereas/05-passagens-aereas.md) | `voos` · `reservas` | 65.600 |
+| 6 | Serviço meteorológico | [06-servico-meteorologico.md](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/06-servico-meteorologico/06-servico-meteorologico.md) | `estacoes` · `leituras` | 72.050 |
+| 7 | Telemetria esportiva | [07-telemetria-esportiva.md](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/07-telemetria-esportiva/07-telemetria-esportiva.md) | `pilotos` · `voltas` | 65.800 |
+| 8 | Festival de música | [08-festival-de-musica.md](https://github.com/rafaelq80/desafios_tecnicos_ad/blob/01_Bases/bases_dados/08-festival-de-musica/08-festival-de-musica.md) | `atracoes` · `ingressos_vendidos` | 65.100 |
 
 ---
 
